@@ -34,6 +34,7 @@ services:
       STORAGE_DRIVER: local
       STORAGE_LOCAL_DIR: /app/.data/storage
       APP_URL: ${APP_URL}
+      RESEND_API_KEY: ${RESEND_API_KEY}
       SSO_ISSUER: ${SSO_ISSUER}
       SSO_CLIENT_ID: ${SSO_CLIENT_ID}
       SSO_CLIENT_SECRET: ${SSO_CLIENT_SECRET}
